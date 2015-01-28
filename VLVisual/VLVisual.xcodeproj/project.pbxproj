@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F012B2C51A785BAB001ABF84 /* SOToolWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F012B2C31A785BAB001ABF84 /* SOToolWindowController.m */; };
+		F012B2C61A785BAB001ABF84 /* SOToolWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F012B2C41A785BAB001ABF84 /* SOToolWindowController.xib */; };
 		F0BA27D61A0C5F23008001A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0BA27D51A0C5F23008001A3 /* main.m */; };
 		F0BA27D91A0C5F23008001A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0BA27D81A0C5F23008001A3 /* AppDelegate.m */; };
 		F0BA27DB1A0C5F23008001A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0BA27DA1A0C5F23008001A3 /* Images.xcassets */; };
@@ -25,6 +27,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F012B2C21A785BAB001ABF84 /* SOToolWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOToolWindowController.h; sourceTree = "<group>"; };
+		F012B2C31A785BAB001ABF84 /* SOToolWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOToolWindowController.m; sourceTree = "<group>"; };
+		F012B2C41A785BAB001ABF84 /* SOToolWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SOToolWindowController.xib; path = Source/SOToolWindowController.xib; sourceTree = "<group>"; };
 		F0BA27D01A0C5F23008001A3 /* VLVisual.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VLVisual.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0BA27D41A0C5F23008001A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0BA27D51A0C5F23008001A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -115,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				F0BA27DC1A0C5F23008001A3 /* MainMenu.xib */,
+				F012B2C41A785BAB001ABF84 /* SOToolWindowController.xib */,
 				F0BA27DA1A0C5F23008001A3 /* Images.xcassets */,
 			);
 			name = Resources;
@@ -123,6 +129,8 @@
 		F0BA27F41A0C603C008001A3 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				F012B2C21A785BAB001ABF84 /* SOToolWindowController.h */,
+				F012B2C31A785BAB001ABF84 /* SOToolWindowController.m */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -208,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0BA27DB1A0C5F23008001A3 /* Images.xcassets in Resources */,
+				F012B2C61A785BAB001ABF84 /* SOToolWindowController.xib in Resources */,
 				F0BA27DE1A0C5F23008001A3 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -228,6 +237,7 @@
 			files = (
 				F0BA27D91A0C5F23008001A3 /* AppDelegate.m in Sources */,
 				F0BA27D61A0C5F23008001A3 /* main.m in Sources */,
+				F012B2C51A785BAB001ABF84 /* SOToolWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +424,7 @@
 				F0BA27EF1A0C5F24008001A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F0BA27F01A0C5F24008001A3 /* Build configuration list for PBXNativeTarget "VLVisualTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +433,7 @@
 				F0BA27F21A0C5F24008001A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

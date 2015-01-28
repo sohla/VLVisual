@@ -7,16 +7,24 @@
 //
 
 #import "AppDelegate.h"
-
+#import "SOToolWindowController.h"
 @interface AppDelegate ()
 
 @property (weak) IBOutlet NSWindow *window;
+@property (strong) SOToolWindowController *toolWindowController;
+
 @end
 
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
+    
+    _toolWindowController = [[SOToolWindowController alloc] initWithWindowNibName:@"SOToolWindowController"];
+    [self.toolWindowController showWindow:nil];
+    
+
+
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
