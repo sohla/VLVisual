@@ -13,6 +13,10 @@
 		F012B2CB1A7908F2001ABF84 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F012B2CA1A7908F2001ABF84 /* Cocoa.framework */; };
 		F012B2CD1A7908FE001ABF84 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F012B2CC1A7908FD001ABF84 /* CoreMedia.framework */; };
 		F012B2CF1A79090D001ABF84 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F012B2CE1A79090D001ABF84 /* AudioToolbox.framework */; };
+		F012B2D11A7909B6001ABF84 /* AVRecorderDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = F012B2D01A7909B6001ABF84 /* AVRecorderDocument.xib */; };
+		F012B2D41A7909C0001ABF84 /* AVRecorderDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = F012B2D31A7909C0001ABF84 /* AVRecorderDocument.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F012B2D91A7909C8001ABF84 /* AVCaptureDeviceFormat_AVRecorderAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F012B2D61A7909C8001ABF84 /* AVCaptureDeviceFormat_AVRecorderAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F012B2DA1A7909C8001ABF84 /* AVFrameRateRange_AVRecorderAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F012B2D81A7909C8001ABF84 /* AVFrameRateRange_AVRecorderAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F0BA27D61A0C5F23008001A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0BA27D51A0C5F23008001A3 /* main.m */; };
 		F0BA27D91A0C5F23008001A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0BA27D81A0C5F23008001A3 /* AppDelegate.m */; };
 		F0BA27DB1A0C5F23008001A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0BA27DA1A0C5F23008001A3 /* Images.xcassets */; };
@@ -38,6 +42,13 @@
 		F012B2CA1A7908F2001ABF84 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		F012B2CC1A7908FD001ABF84 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		F012B2CE1A79090D001ABF84 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F012B2D01A7909B6001ABF84 /* AVRecorderDocument.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AVRecorderDocument.xib; sourceTree = "<group>"; };
+		F012B2D21A7909C0001ABF84 /* AVRecorderDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVRecorderDocument.h; sourceTree = "<group>"; };
+		F012B2D31A7909C0001ABF84 /* AVRecorderDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVRecorderDocument.m; sourceTree = "<group>"; };
+		F012B2D51A7909C8001ABF84 /* AVCaptureDeviceFormat_AVRecorderAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCaptureDeviceFormat_AVRecorderAdditions.h; sourceTree = "<group>"; };
+		F012B2D61A7909C8001ABF84 /* AVCaptureDeviceFormat_AVRecorderAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCaptureDeviceFormat_AVRecorderAdditions.m; sourceTree = "<group>"; };
+		F012B2D71A7909C8001ABF84 /* AVFrameRateRange_AVRecorderAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVFrameRateRange_AVRecorderAdditions.h; sourceTree = "<group>"; };
+		F012B2D81A7909C8001ABF84 /* AVFrameRateRange_AVRecorderAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVFrameRateRange_AVRecorderAdditions.m; sourceTree = "<group>"; };
 		F0BA27D01A0C5F23008001A3 /* VLVisual.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VLVisual.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0BA27D41A0C5F23008001A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0BA27D51A0C5F23008001A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -145,6 +156,7 @@
 			children = (
 				F0BA27DC1A0C5F23008001A3 /* MainMenu.xib */,
 				F012B2C41A785BAB001ABF84 /* SOToolWindowController.xib */,
+				F012B2D01A7909B6001ABF84 /* AVRecorderDocument.xib */,
 				F0BA27DA1A0C5F23008001A3 /* Images.xcassets */,
 			);
 			name = Resources;
@@ -153,6 +165,12 @@
 		F0BA27F41A0C603C008001A3 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				F012B2D21A7909C0001ABF84 /* AVRecorderDocument.h */,
+				F012B2D31A7909C0001ABF84 /* AVRecorderDocument.m */,
+				F012B2D51A7909C8001ABF84 /* AVCaptureDeviceFormat_AVRecorderAdditions.h */,
+				F012B2D61A7909C8001ABF84 /* AVCaptureDeviceFormat_AVRecorderAdditions.m */,
+				F012B2D71A7909C8001ABF84 /* AVFrameRateRange_AVRecorderAdditions.h */,
+				F012B2D81A7909C8001ABF84 /* AVFrameRateRange_AVRecorderAdditions.m */,
 				F012B2C21A785BAB001ABF84 /* SOToolWindowController.h */,
 				F012B2C31A785BAB001ABF84 /* SOToolWindowController.m */,
 			);
@@ -242,6 +260,7 @@
 				F0BA27DB1A0C5F23008001A3 /* Images.xcassets in Resources */,
 				F012B2C61A785BAB001ABF84 /* SOToolWindowController.xib in Resources */,
 				F0BA27DE1A0C5F23008001A3 /* MainMenu.xib in Resources */,
+				F012B2D11A7909B6001ABF84 /* AVRecorderDocument.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +281,9 @@
 				F0BA27D91A0C5F23008001A3 /* AppDelegate.m in Sources */,
 				F0BA27D61A0C5F23008001A3 /* main.m in Sources */,
 				F012B2C51A785BAB001ABF84 /* SOToolWindowController.m in Sources */,
+				F012B2D91A7909C8001ABF84 /* AVCaptureDeviceFormat_AVRecorderAdditions.m in Sources */,
+				F012B2D41A7909C0001ABF84 /* AVRecorderDocument.m in Sources */,
+				F012B2DA1A7909C8001ABF84 /* AVFrameRateRange_AVRecorderAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
