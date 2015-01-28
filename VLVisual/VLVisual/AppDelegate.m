@@ -17,12 +17,10 @@
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    // Insert code here to initialize your application
-    
-    _toolWindowController = [[SOToolWindowController alloc] initWithWindowNibName:@"SOToolWindowController"];
-    [self.toolWindowController showWindow:nil];
-    
 
+    _toolWindowController = [[SOToolWindowController alloc] initWithWindowNibName:@"SOToolWindowController"];
+    [self.toolWindowController showWindow:self];
+    
 
 }
 
