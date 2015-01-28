@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.AVKitIBPlugin" version="6254"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6254"/>
     </dependencies>
     <objects>
@@ -16,23 +15,14 @@
         <window title="Tools" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" restorable="NO" oneShot="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="F0z-JX-Cv5">
             <windowStyleMask key="styleMask" titled="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="0.0" y="232" width="300" height="389"/>
+            <rect key="contentRect" x="0.0" y="232" width="300" height="272"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1440" height="877"/>
             <view key="contentView" id="se5-gp-TjO">
-                <rect key="frame" x="0.0" y="0.0" width="300" height="389"/>
+                <rect key="frame" x="0.0" y="0.0" width="300" height="272"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <box autoresizesSubviews="NO" fixedFrame="YES" title="Playback" borderType="line" translatesAutoresizingMaskIntoConstraints="NO" id="X6T-av-Q2x">
-                        <rect key="frame" x="17" y="255" width="266" height="114"/>
-                        <view key="contentView">
-                            <rect key="frame" x="1" y="1" width="264" height="98"/>
-                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        </view>
-                        <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
-                        <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                    </box>
-                    <box autoresizesSubviews="NO" fixedFrame="YES" title="Camera" borderType="line" translatesAutoresizingMaskIntoConstraints="NO" id="4oG-0d-bUY">
-                        <rect key="frame" x="17" y="137" width="266" height="114"/>
+                        <rect key="frame" x="17" y="138" width="266" height="114"/>
                         <view key="contentView">
                             <rect key="frame" x="1" y="1" width="264" height="98"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -41,7 +31,7 @@
                         <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </box>
                     <box autoresizesSubviews="NO" fixedFrame="YES" title="Lights" borderType="line" translatesAutoresizingMaskIntoConstraints="NO" id="aVW-Hc-axv">
-                        <rect key="frame" x="17" y="19" width="266" height="114"/>
+                        <rect key="frame" x="17" y="25" width="266" height="114"/>
                         <view key="contentView">
                             <rect key="frame" x="1" y="1" width="264" height="98"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -54,11 +44,7 @@
             <connections>
                 <outlet property="delegate" destination="-2" id="0bl-1N-AYu"/>
             </connections>
-            <point key="canvasLocation" x="92" y="230.5"/>
+            <point key="canvasLocation" x="92" y="172"/>
         </window>
-        <avPlayerView id="5rK-xF-KTY">
-            <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
-            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-        </avPlayerView>
     </objects>
 </document>
