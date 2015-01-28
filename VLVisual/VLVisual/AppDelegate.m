@@ -10,7 +10,6 @@
 #import "SOToolWindowController.h"
 @interface AppDelegate ()
 
-@property (weak) IBOutlet NSWindow *window;
 @property (strong) SOToolWindowController *toolWindowController;
 
 @end
