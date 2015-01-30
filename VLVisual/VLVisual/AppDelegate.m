@@ -18,8 +18,8 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
 
-    _toolWindowController = [[SOToolWindowController alloc] initWithWindowNibName:@"SOToolWindowController"];
-    [self.toolWindowController showWindow:self];
+//    _toolWindowController = [[SOToolWindowController alloc] initWithWindowNibName:@"SOToolWindowController"];
+//    [self.toolWindowController showWindow:self];
     
 
 }

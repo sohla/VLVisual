@@ -144,6 +144,8 @@
 		
 		// Initial refresh of device list
 		[self refreshDevices];
+        
+        
 	}
 	return self;
 }
@@ -204,6 +206,8 @@
 	
 	// Start updating the audio level meter
 	[self setAudioLevelTimer:[NSTimer scheduledTimerWithTimeInterval:0.1f target:self selector:@selector(updateAudioLevels:) userInfo:nil repeats:YES]];
+    
+//    [self setRecording:YES];
 }
 
 - (void)didPresentErrorWithRecovery:(BOOL)didRecover contextInfo:(void  *)contextInfo
