@@ -10,7 +10,7 @@
 #import "SOArduinoWindowController.h"
 @interface AppDelegate ()
 
-@property (strong) SOArduinoWindowController *toolWindowController;
+@property (strong) SOArduinoWindowController *arduinoWindowController;
 
 @end
 
@@ -18,8 +18,8 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
 
-//    _toolWindowController = [[SOToolWindowController alloc] initWithWindowNibName:@"SOToolWindowController"];
-//    [self.toolWindowController showWindow:self];
+    _arduinoWindowController = [[SOArduinoWindowController alloc] initWithWindowNibName:@"SOArduinoWindowController"];
+    [self.arduinoWindowController showWindow:self];
     
 
 }
