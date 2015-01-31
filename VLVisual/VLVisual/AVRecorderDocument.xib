@@ -45,7 +45,7 @@
 			<object class="NSWindowTemplate" id="883269890">
 				<int key="NSWindowStyleMask">15</int>
 				<int key="NSWindowBacking">2</int>
-				<string key="NSWindowRect">{{92, 297}, {299, 715}}</string>
+				<string key="NSWindowRect">{{121, 141}, {299, 715}}</string>
 				<int key="NSWTFlags">1886912512</int>
 				<string key="NSWindowTitle">Window</string>
 				<string key="NSWindowClass">NSWindow</string>
@@ -62,7 +62,6 @@
 							<string key="NSFrame">{{20, 215}, {259, 175}}</string>
 							<reference key="NSSuperview" ref="34579220"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView"/>
 							<bool key="NSViewIsLayerTreeHost">YES</bool>
 							<bool key="NSViewCanDrawConcurrently">YES</bool>
 							<string key="NSReuseIdentifierKey">_NS:1109</string>
@@ -164,7 +163,6 @@
 											<string key="NSFrame">{{15, 11}, {228, 22}}</string>
 											<reference key="NSSuperview" ref="970381668"/>
 											<reference key="NSWindow"/>
-											<reference key="NSNextKeyView"/>
 											<bool key="NSEnabled">YES</bool>
 											<object class="NSPopUpButtonCell" key="NSCell" id="393561001">
 												<int key="NSCellFlags">-2076180416</int>
@@ -285,7 +283,6 @@
 											<string key="NSFrame">{{15, 11}, {228, 22}}</string>
 											<reference key="NSSuperview" ref="322737024"/>
 											<reference key="NSWindow"/>
-											<reference key="NSNextKeyView"/>
 											<bool key="NSEnabled">YES</bool>
 											<object class="NSPopUpButtonCell" key="NSCell" id="242862611">
 												<int key="NSCellFlags">-2076180416</int>
@@ -524,7 +521,6 @@
 											<string key="NSFrame">{{18, 12}, {222, 18}}</string>
 											<reference key="NSSuperview" ref="341941265"/>
 											<reference key="NSWindow"/>
-											<reference key="NSNextKeyView"/>
 											<bool key="NSEnabled">YES</bool>
 											<object class="NSLevelIndicatorCell" key="NSCell" id="837261069">
 												<int key="NSCellFlags">0</int>
@@ -693,7 +689,6 @@
 					<string key="NSFrameSize">{299, 715}</string>
 					<reference key="NSSuperview"/>
 					<reference key="NSWindow"/>
-					<reference key="NSNextKeyView"/>
 					<bool key="NSViewCanDrawConcurrently">YES</bool>
 				</object>
 				<string key="NSScreenRect">{{0, 0}, {1440, 877}}</string>

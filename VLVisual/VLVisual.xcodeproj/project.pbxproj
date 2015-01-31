@@ -17,6 +17,12 @@
 		F012B2D41A7909C0001ABF84 /* AVRecorderDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = F012B2D31A7909C0001ABF84 /* AVRecorderDocument.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F012B2D91A7909C8001ABF84 /* AVCaptureDeviceFormat_AVRecorderAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F012B2D61A7909C8001ABF84 /* AVCaptureDeviceFormat_AVRecorderAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F012B2DA1A7909C8001ABF84 /* AVFrameRateRange_AVRecorderAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F012B2D81A7909C8001ABF84 /* AVFrameRateRange_AVRecorderAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F088D0491A7C54890003303F /* AMSerialPort.m in Sources */ = {isa = PBXBuildFile; fileRef = F088D0401A7C54890003303F /* AMSerialPort.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F088D04A1A7C54890003303F /* AMSerialPortAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F088D0421A7C54890003303F /* AMSerialPortAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F088D04B1A7C54890003303F /* AMSerialPortList.m in Sources */ = {isa = PBXBuildFile; fileRef = F088D0441A7C54890003303F /* AMSerialPortList.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F088D04C1A7C54890003303F /* AMSerialPortList_Deprecated.m in Sources */ = {isa = PBXBuildFile; fileRef = F088D0461A7C54890003303F /* AMSerialPortList_Deprecated.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F088D04D1A7C54890003303F /* AMStandardEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = F088D0481A7C54890003303F /* AMStandardEnumerator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F088D0501A7C56760003303F /* Matatino.m in Sources */ = {isa = PBXBuildFile; fileRef = F088D04F1A7C56760003303F /* Matatino.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F0BA27D61A0C5F23008001A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0BA27D51A0C5F23008001A3 /* main.m */; };
 		F0BA27D91A0C5F23008001A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0BA27D81A0C5F23008001A3 /* AppDelegate.m */; };
 		F0BA27DB1A0C5F23008001A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0BA27DA1A0C5F23008001A3 /* Images.xcassets */; };
@@ -49,6 +55,20 @@
 		F012B2D61A7909C8001ABF84 /* AVCaptureDeviceFormat_AVRecorderAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCaptureDeviceFormat_AVRecorderAdditions.m; sourceTree = "<group>"; };
 		F012B2D71A7909C8001ABF84 /* AVFrameRateRange_AVRecorderAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVFrameRateRange_AVRecorderAdditions.h; sourceTree = "<group>"; };
 		F012B2D81A7909C8001ABF84 /* AVFrameRateRange_AVRecorderAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVFrameRateRange_AVRecorderAdditions.m; sourceTree = "<group>"; };
+		F088D03D1A7C54890003303F /* AMSDKCompatibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSDKCompatibility.h; sourceTree = "<group>"; };
+		F088D03E1A7C54890003303F /* AMSerialErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSerialErrors.h; sourceTree = "<group>"; };
+		F088D03F1A7C54890003303F /* AMSerialPort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSerialPort.h; sourceTree = "<group>"; };
+		F088D0401A7C54890003303F /* AMSerialPort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMSerialPort.m; sourceTree = "<group>"; };
+		F088D0411A7C54890003303F /* AMSerialPortAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSerialPortAdditions.h; sourceTree = "<group>"; };
+		F088D0421A7C54890003303F /* AMSerialPortAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMSerialPortAdditions.m; sourceTree = "<group>"; };
+		F088D0431A7C54890003303F /* AMSerialPortList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSerialPortList.h; sourceTree = "<group>"; };
+		F088D0441A7C54890003303F /* AMSerialPortList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMSerialPortList.m; sourceTree = "<group>"; };
+		F088D0451A7C54890003303F /* AMSerialPortList_Deprecated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSerialPortList_Deprecated.h; sourceTree = "<group>"; };
+		F088D0461A7C54890003303F /* AMSerialPortList_Deprecated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMSerialPortList_Deprecated.m; sourceTree = "<group>"; };
+		F088D0471A7C54890003303F /* AMStandardEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMStandardEnumerator.h; sourceTree = "<group>"; };
+		F088D0481A7C54890003303F /* AMStandardEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMStandardEnumerator.m; sourceTree = "<group>"; };
+		F088D04F1A7C56760003303F /* Matatino.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Matatino.m; sourceTree = "<group>"; };
+		F088D0511A7C567D0003303F /* Matatino.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Matatino.h; sourceTree = "<group>"; };
 		F0BA27D01A0C5F23008001A3 /* VLVisual.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VLVisual.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0BA27D41A0C5F23008001A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0BA27D51A0C5F23008001A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -94,6 +114,34 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F088D03C1A7C54890003303F /* AMSerialPort */ = {
+			isa = PBXGroup;
+			children = (
+				F088D03D1A7C54890003303F /* AMSDKCompatibility.h */,
+				F088D03E1A7C54890003303F /* AMSerialErrors.h */,
+				F088D03F1A7C54890003303F /* AMSerialPort.h */,
+				F088D0401A7C54890003303F /* AMSerialPort.m */,
+				F088D0411A7C54890003303F /* AMSerialPortAdditions.h */,
+				F088D0421A7C54890003303F /* AMSerialPortAdditions.m */,
+				F088D0431A7C54890003303F /* AMSerialPortList.h */,
+				F088D0441A7C54890003303F /* AMSerialPortList.m */,
+				F088D0451A7C54890003303F /* AMSerialPortList_Deprecated.h */,
+				F088D0461A7C54890003303F /* AMSerialPortList_Deprecated.m */,
+				F088D0471A7C54890003303F /* AMStandardEnumerator.h */,
+				F088D0481A7C54890003303F /* AMStandardEnumerator.m */,
+			);
+			path = AMSerialPort;
+			sourceTree = "<group>";
+		};
+		F088D04E1A7C566D0003303F /* Matatino */ = {
+			isa = PBXGroup;
+			children = (
+				F088D0511A7C567D0003303F /* Matatino.h */,
+				F088D04F1A7C56760003303F /* Matatino.m */,
+			);
+			path = Matatino;
+			sourceTree = "<group>";
+		};
 		F0BA27C71A0C5F23008001A3 = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +167,8 @@
 				F0BA27D71A0C5F23008001A3 /* AppDelegate.h */,
 				F0BA27D81A0C5F23008001A3 /* AppDelegate.m */,
 				F0BA27F41A0C603C008001A3 /* Source */,
+				F088D03C1A7C54890003303F /* AMSerialPort */,
+				F088D04E1A7C566D0003303F /* Matatino */,
 				F0BA27F31A0C5FF8008001A3 /* Resources */,
 				F0BA27D31A0C5F23008001A3 /* Supporting Files */,
 			);
@@ -281,8 +331,14 @@
 				F0BA27D91A0C5F23008001A3 /* AppDelegate.m in Sources */,
 				F0BA27D61A0C5F23008001A3 /* main.m in Sources */,
 				F012B2C51A785BAB001ABF84 /* SOToolWindowController.m in Sources */,
+				F088D0491A7C54890003303F /* AMSerialPort.m in Sources */,
+				F088D04A1A7C54890003303F /* AMSerialPortAdditions.m in Sources */,
+				F088D04C1A7C54890003303F /* AMSerialPortList_Deprecated.m in Sources */,
+				F088D0501A7C56760003303F /* Matatino.m in Sources */,
 				F012B2D91A7909C8001ABF84 /* AVCaptureDeviceFormat_AVRecorderAdditions.m in Sources */,
 				F012B2D41A7909C0001ABF84 /* AVRecorderDocument.m in Sources */,
+				F088D04B1A7C54890003303F /* AMSerialPortList.m in Sources */,
+				F088D04D1A7C54890003303F /* AMStandardEnumerator.m in Sources */,
 				F012B2DA1A7909C8001ABF84 /* AVFrameRateRange_AVRecorderAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
