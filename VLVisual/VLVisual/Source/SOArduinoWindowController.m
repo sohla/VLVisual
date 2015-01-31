@@ -6,13 +6,13 @@
 //  Copyright (c) 2015 Steph OHara. All rights reserved.
 //
 
-#import "SOToolWindowController.h"
+#import "SOArduinoWindowController.h"
 
-@interface SOToolWindowController ()
+@interface SOArduinoWindowController ()
 
 @end
 
-@implementation SOToolWindowController
+@implementation SOArduinoWindowController
 
 - (void)windowDidLoad {
     [super windowDidLoad];

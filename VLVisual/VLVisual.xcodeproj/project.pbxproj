@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F012B2C51A785BAB001ABF84 /* SOToolWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F012B2C31A785BAB001ABF84 /* SOToolWindowController.m */; };
-		F012B2C61A785BAB001ABF84 /* SOToolWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F012B2C41A785BAB001ABF84 /* SOToolWindowController.xib */; };
+		F012B2C51A785BAB001ABF84 /* SOArduinoWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F012B2C31A785BAB001ABF84 /* SOArduinoWindowController.m */; };
+		F012B2C61A785BAB001ABF84 /* SOArduinoWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F012B2C41A785BAB001ABF84 /* SOArduinoWindowController.xib */; };
 		F012B2C91A7908E5001ABF84 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F012B2C81A7908E5001ABF84 /* AVFoundation.framework */; };
 		F012B2CB1A7908F2001ABF84 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F012B2CA1A7908F2001ABF84 /* Cocoa.framework */; };
 		F012B2CD1A7908FE001ABF84 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F012B2CC1A7908FD001ABF84 /* CoreMedia.framework */; };
@@ -41,9 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F012B2C21A785BAB001ABF84 /* SOToolWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOToolWindowController.h; sourceTree = "<group>"; };
-		F012B2C31A785BAB001ABF84 /* SOToolWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOToolWindowController.m; sourceTree = "<group>"; };
-		F012B2C41A785BAB001ABF84 /* SOToolWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SOToolWindowController.xib; path = Source/SOToolWindowController.xib; sourceTree = "<group>"; };
+		F012B2C21A785BAB001ABF84 /* SOArduinoWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOArduinoWindowController.h; sourceTree = "<group>"; };
+		F012B2C31A785BAB001ABF84 /* SOArduinoWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOArduinoWindowController.m; sourceTree = "<group>"; };
+		F012B2C41A785BAB001ABF84 /* SOArduinoWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SOArduinoWindowController.xib; path = Source/SOArduinoWindowController.xib; sourceTree = "<group>"; };
 		F012B2C81A7908E5001ABF84 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		F012B2CA1A7908F2001ABF84 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		F012B2CC1A7908FD001ABF84 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
@@ -205,7 +205,7 @@
 			isa = PBXGroup;
 			children = (
 				F0BA27DC1A0C5F23008001A3 /* MainMenu.xib */,
-				F012B2C41A785BAB001ABF84 /* SOToolWindowController.xib */,
+				F012B2C41A785BAB001ABF84 /* SOArduinoWindowController.xib */,
 				F012B2D01A7909B6001ABF84 /* AVRecorderDocument.xib */,
 				F0BA27DA1A0C5F23008001A3 /* Images.xcassets */,
 			);
@@ -221,8 +221,8 @@
 				F012B2D61A7909C8001ABF84 /* AVCaptureDeviceFormat_AVRecorderAdditions.m */,
 				F012B2D71A7909C8001ABF84 /* AVFrameRateRange_AVRecorderAdditions.h */,
 				F012B2D81A7909C8001ABF84 /* AVFrameRateRange_AVRecorderAdditions.m */,
-				F012B2C21A785BAB001ABF84 /* SOToolWindowController.h */,
-				F012B2C31A785BAB001ABF84 /* SOToolWindowController.m */,
+				F012B2C21A785BAB001ABF84 /* SOArduinoWindowController.h */,
+				F012B2C31A785BAB001ABF84 /* SOArduinoWindowController.m */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -308,7 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0BA27DB1A0C5F23008001A3 /* Images.xcassets in Resources */,
-				F012B2C61A785BAB001ABF84 /* SOToolWindowController.xib in Resources */,
+				F012B2C61A785BAB001ABF84 /* SOArduinoWindowController.xib in Resources */,
 				F0BA27DE1A0C5F23008001A3 /* MainMenu.xib in Resources */,
 				F012B2D11A7909B6001ABF84 /* AVRecorderDocument.xib in Resources */,
 			);
@@ -330,7 +330,7 @@
 			files = (
 				F0BA27D91A0C5F23008001A3 /* AppDelegate.m in Sources */,
 				F0BA27D61A0C5F23008001A3 /* main.m in Sources */,
-				F012B2C51A785BAB001ABF84 /* SOToolWindowController.m in Sources */,
+				F012B2C51A785BAB001ABF84 /* SOArduinoWindowController.m in Sources */,
 				F088D0491A7C54890003303F /* AMSerialPort.m in Sources */,
 				F088D04A1A7C54890003303F /* AMSerialPortAdditions.m in Sources */,
 				F088D04C1A7C54890003303F /* AMSerialPortList_Deprecated.m in Sources */,

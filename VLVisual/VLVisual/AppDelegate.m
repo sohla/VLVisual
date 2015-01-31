@@ -7,10 +7,10 @@
 //
 
 #import "AppDelegate.h"
-#import "SOToolWindowController.h"
+#import "SOArduinoWindowController.h"
 @interface AppDelegate ()
 
-@property (strong) SOToolWindowController *toolWindowController;
+@property (strong) SOArduinoWindowController *toolWindowController;
 
 @end
 
