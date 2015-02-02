@@ -48,8 +48,6 @@
     [self.connectButton setTitle:@"Stop"];
 }
 
-- (void)windowWillClose:(NSNotification *)notification{
-}
 #pragma Actions
 
 -(void) onColorPanelAction:(id)sender{
