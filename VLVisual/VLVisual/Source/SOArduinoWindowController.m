@@ -48,13 +48,14 @@
     [self.connectButton setTitle:@"Stop"];
 }
 
-
+- (void)windowWillClose:(NSNotification *)notification{
+}
 #pragma Actions
 
 -(void) onColorPanelAction:(id)sender{
     
     NSColorPanel *colorPanel = (NSColorPanel*)sender;
-    NSLog(@"%@",[colorPanel color]);
+    DLog(@"%@",[colorPanel color]);
     
     [self sendDMXColor:[colorPanel color]];
     
@@ -81,7 +82,7 @@
         
     } else { // Pressing Stop
         
-        NSLog(@"stop");
+        DLog(@"stop");
         
         [self dmxOff];
         
@@ -109,7 +110,7 @@
                          ];
     
     [self.arduino send:command];
-    NSLog(@"%@",command);
+    DLog(@"%@",command);
     
     
 }
@@ -126,12 +127,12 @@
         [self sendDMXColor:[NSColor greenColor]];
     }
     
-    NSLog(@"%@",rx);
+    DLog(@"%@",rx);
 }
 
 - (void) portAdded:(NSArray *)ports {
     
-    NSLog(@"Added: %@", ports);
+    DLog(@"Added: %@", ports);
     
     for(NSString *portName in ports) {
         [self.serialSelectMenu addItemWithTitle:portName];
@@ -140,7 +141,7 @@
 
 - (void) portRemoved:(NSArray *)ports {
     
-    NSLog(@"Removed: %@", ports);
+    DLog(@"Removed: %@", ports);
     
     for(NSString *portName in ports) {
         [self.serialSelectMenu removeItemWithTitle:portName];

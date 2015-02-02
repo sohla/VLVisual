@@ -113,6 +113,7 @@
 		F0BA27E31A0C5F24008001A3 /* VLVisualTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VLVisualTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0BA27E81A0C5F24008001A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0BA27E91A0C5F24008001A3 /* VLVisualTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VLVisualTests.m; sourceTree = "<group>"; };
+		F0DD920D1A7FA79900B78B03 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,6 +211,35 @@
 			path = JSONModelTransformations;
 			sourceTree = "<group>";
 		};
+		F028FD0F1A7C954200B5017A /* Recording */ = {
+			isa = PBXGroup;
+			children = (
+				F012B2D21A7909C0001ABF84 /* AVRecorderDocument.h */,
+				F012B2D31A7909C0001ABF84 /* AVRecorderDocument.m */,
+				F012B2D51A7909C8001ABF84 /* AVCaptureDeviceFormat_AVRecorderAdditions.h */,
+				F012B2D61A7909C8001ABF84 /* AVCaptureDeviceFormat_AVRecorderAdditions.m */,
+				F012B2D71A7909C8001ABF84 /* AVFrameRateRange_AVRecorderAdditions.h */,
+				F012B2D81A7909C8001ABF84 /* AVFrameRateRange_AVRecorderAdditions.m */,
+			);
+			name = Recording;
+			sourceTree = "<group>";
+		};
+		F028FD101A7C955800B5017A /* Arduino */ = {
+			isa = PBXGroup;
+			children = (
+				F012B2C21A785BAB001ABF84 /* SOArduinoWindowController.h */,
+				F012B2C31A785BAB001ABF84 /* SOArduinoWindowController.m */,
+			);
+			name = Arduino;
+			sourceTree = "<group>";
+		};
+		F028FD111A7C956000B5017A /* Playback */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Playback;
+			sourceTree = "<group>";
+		};
 		F088D03C1A7C54890003303F /* AMSerialPort */ = {
 			isa = PBXGroup;
 			children = (
@@ -277,6 +307,7 @@
 			children = (
 				F0BA27D41A0C5F23008001A3 /* Info.plist */,
 				F0BA27D51A0C5F23008001A3 /* main.m */,
+				F0DD920D1A7FA79900B78B03 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -312,14 +343,9 @@
 		F0BA27F41A0C603C008001A3 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				F012B2D21A7909C0001ABF84 /* AVRecorderDocument.h */,
-				F012B2D31A7909C0001ABF84 /* AVRecorderDocument.m */,
-				F012B2D51A7909C8001ABF84 /* AVCaptureDeviceFormat_AVRecorderAdditions.h */,
-				F012B2D61A7909C8001ABF84 /* AVCaptureDeviceFormat_AVRecorderAdditions.m */,
-				F012B2D71A7909C8001ABF84 /* AVFrameRateRange_AVRecorderAdditions.h */,
-				F012B2D81A7909C8001ABF84 /* AVFrameRateRange_AVRecorderAdditions.m */,
-				F012B2C21A785BAB001ABF84 /* SOArduinoWindowController.h */,
-				F012B2C31A785BAB001ABF84 /* SOArduinoWindowController.m */,
+				F028FD111A7C956000B5017A /* Playback */,
+				F028FD101A7C955800B5017A /* Arduino */,
+				F028FD0F1A7C954200B5017A /* Recording */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -562,6 +588,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = VLVisual/PrefixHeader.pch;
 				INFOPLIST_FILE = VLVisual/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -573,6 +601,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = VLVisual/PrefixHeader.pch;
 				INFOPLIST_FILE = VLVisual/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

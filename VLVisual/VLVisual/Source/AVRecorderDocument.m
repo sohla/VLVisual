@@ -102,13 +102,13 @@
 																	 object:session
 																	  queue:[NSOperationQueue mainQueue]
 																 usingBlock:^(NSNotification *note) {
-																	 NSLog(@"did start running");
+																	 DLog(@"did start running");
 																 }];
 		id didStopRunningObserver = [notificationCenter addObserverForName:AVCaptureSessionDidStopRunningNotification
 																	object:session
 																	 queue:[NSOperationQueue mainQueue]
 																usingBlock:^(NSNotification *note) {
-																	NSLog(@"did stop running");
+																	DLog(@"did stop running");
 																}];
 		id deviceWasConnectedObserver = [notificationCenter addObserverForName:AVCaptureDeviceWasConnectedNotification
 																		object:nil
@@ -589,17 +589,17 @@
 
 - (void)captureOutput:(AVCaptureFileOutput *)captureOutput didStartRecordingToOutputFileAtURL:(NSURL *)fileURL fromConnections:(NSArray *)connections
 {
-	NSLog(@"Did start recording to %@", [fileURL description]);
+	DLog(@"Did start recording to %@", [fileURL description]);
 }
 
 - (void)captureOutput:(AVCaptureFileOutput *)captureOutput didPauseRecordingToOutputFileAtURL:(NSURL *)fileURL fromConnections:(NSArray *)connections
 {
-	NSLog(@"Did pause recording to %@", [fileURL description]);
+	DLog(@"Did pause recording to %@", [fileURL description]);
 }
 
 - (void)captureOutput:(AVCaptureFileOutput *)captureOutput didResumeRecordingToOutputFileAtURL:(NSURL *)fileURL fromConnections:(NSArray *)connections
 {
-	NSLog(@"Did resume recording to %@", [fileURL description]);
+	DLog(@"Did resume recording to %@", [fileURL description]);
 }
 
 - (void)captureOutput:(AVCaptureFileOutput *)captureOutput willFinishRecordingToOutputFileAtURL:(NSURL *)fileURL fromConnections:(NSArray *)connections dueToError:(NSError *)error
