@@ -332,6 +332,7 @@
 		F0BA27F31A0C5FF8008001A3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F0DD92111A7FAC5A00B78B03 /* Movies */,
 				F0BA27DC1A0C5F23008001A3 /* MainMenu.xib */,
 				F012B2C41A785BAB001ABF84 /* SOArduinoWindowController.xib */,
 				F012B2D01A7909B6001ABF84 /* AVRecorderDocument.xib */,
@@ -348,6 +349,13 @@
 				F028FD0F1A7C954200B5017A /* Recording */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		F0DD92111A7FAC5A00B78B03 /* Movies */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Movies;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
