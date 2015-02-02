@@ -39,6 +39,7 @@
 		F0BA27DB1A0C5F23008001A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0BA27DA1A0C5F23008001A3 /* Images.xcassets */; };
 		F0BA27DE1A0C5F23008001A3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0BA27DC1A0C5F23008001A3 /* MainMenu.xib */; };
 		F0BA27EA1A0C5F24008001A3 /* VLVisualTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0BA27E91A0C5F24008001A3 /* VLVisualTests.m */; };
+		F0DD92131A7FACA500B78B03 /* testsig.m4v in Resources */ = {isa = PBXBuildFile; fileRef = F0DD92121A7FACA500B78B03 /* testsig.m4v */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,6 +115,7 @@
 		F0BA27E81A0C5F24008001A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0BA27E91A0C5F24008001A3 /* VLVisualTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VLVisualTests.m; sourceTree = "<group>"; };
 		F0DD920D1A7FA79900B78B03 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F0DD92121A7FACA500B78B03 /* testsig.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = testsig.m4v; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -354,6 +356,7 @@
 		F0DD92111A7FAC5A00B78B03 /* Movies */ = {
 			isa = PBXGroup;
 			children = (
+				F0DD92121A7FACA500B78B03 /* testsig.m4v */,
 			);
 			path = Movies;
 			sourceTree = "<group>";
@@ -439,6 +442,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0BA27DB1A0C5F23008001A3 /* Images.xcassets in Resources */,
+				F0DD92131A7FACA500B78B03 /* testsig.m4v in Resources */,
 				F012B2C61A785BAB001ABF84 /* SOArduinoWindowController.xib in Resources */,
 				F0BA27DE1A0C5F23008001A3 /* MainMenu.xib in Resources */,
 				F012B2D11A7909B6001ABF84 /* AVRecorderDocument.xib in Resources */,
